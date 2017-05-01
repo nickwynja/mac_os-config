@@ -44,6 +44,10 @@ brew install mobile-shell
 
 # tmux
 brew install tmux
+brew install reattach-to-user-namespace
 
 # Vim
 brew install vim
+
+# wget
+brew install wget
