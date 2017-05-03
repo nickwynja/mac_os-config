@@ -24,6 +24,9 @@ brew install bash
 # Bash Completion
 brew install bash-completion
 
+# Cmus Music Player
+brew install cmus --with-ffmpeg
+
 # Git
 brew install git
 
