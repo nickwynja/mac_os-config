@@ -25,6 +25,9 @@ defaults write com.apple.Dock autohide-delay -float 0
 printf "Dock - Don’t show Dashboard as a Space\n"
 defaults write com.apple.dock "dashboard-in-overlay" -bool true
 
+printf "Dock - Hide indicator lights for open applications\n"
+defaults write com.apple.dock show-process-indicators -bool false
+
 printf "iCloud - Save to disk by default\n"
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
@@ -67,3 +70,20 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
 printf "Time Machine - Prevent prompting to use new hard drives as backup volume\n"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+# Automatic scrollbars
+# Possible values: `WhenScrolling`, `Automatic` and `Always`
+defaults write NSGlobalDomain AppleShowScrollBars -string "Automatic"
+
+# Set clock to 24h with seconds
+# https://apple.stackexchange.com/a/75129
+defaults write com.apple.menuextra.clock DateFormat -string 'H:mm:ss'
+
+# Use Dark UI
+defaults write NSGlobalDomain AppleInterfaceStyle Dark
+
+# Use Graphite Appearance
+defaults write NSGlobalDomain AppleAquaColorVariant -int 6
+
+# Disable swipe in Chrome
+defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
