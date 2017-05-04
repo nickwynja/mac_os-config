@@ -20,8 +20,6 @@ brew install openssl-osx-ca
 
 # Bash
 brew install bash
-
-# Bash Completion
 brew install bash-completion
 
 # Cmus Music Player
@@ -38,6 +36,9 @@ brew install gpg-agent
 
 # ImageMagick
 brew install imagemagick
+
+# lftp http://lftp.yar.ru/
+brew install lftp
 
 # Mac App Store CLI
 brew install mas
