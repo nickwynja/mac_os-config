@@ -49,6 +49,9 @@ brew install mobile-shell
 # Pandoc
 brew install pandoc
 
+# PHP
+brew tap homebrew/php && brew install composer
+
 # tmux
 brew install tmux
 brew install reattach-to-user-namespace
