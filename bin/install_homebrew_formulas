@@ -61,3 +61,4 @@ brew install wget
 brew install coreutils
 brew install zsh
 brew install nvm && mkdir ~/.nvm
+brew install neovim
