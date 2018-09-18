@@ -62,3 +62,6 @@ brew install coreutils
 brew install zsh
 brew install nvm && mkdir ~/.nvm
 brew install neovim
+brew install bat
+brew install pping
+brew install diff-so-fancy
