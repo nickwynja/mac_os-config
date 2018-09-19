@@ -65,3 +65,4 @@ brew install neovim
 brew install bat
 brew install pping
 brew install diff-so-fancy
+brew install the_silver_searcher
