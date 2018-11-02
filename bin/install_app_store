@@ -11,10 +11,10 @@ if ! command -v mas > /dev/null; then
   exit 1
 fi
 # Slack
-mas install 803453959
+# mas install 803453959
 
 # Trillian
-mas install 412056820
+# mas install 412056820
 
 # Magnet
-mas install 441258766
+# mas install 441258766
