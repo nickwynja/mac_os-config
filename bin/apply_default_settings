@@ -87,3 +87,6 @@ defaults write NSGlobalDomain AppleAquaColorVariant -int 6
 
 # Disable swipe in Chrome
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
+
+# Set only a dark menu bar and dock
+defaults write -g NSRequiresAquaSystemAppearance -bool Yes
