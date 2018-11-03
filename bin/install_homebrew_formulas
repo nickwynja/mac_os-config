@@ -67,3 +67,5 @@ brew install pping
 brew install diff-so-fancy
 brew install the_silver_searcher
 brew install ack
+brew install docker-compose
+brew install npm
